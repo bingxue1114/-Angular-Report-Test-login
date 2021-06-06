@@ -1332,6 +1332,7 @@ function HomeComponent_li_40_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function HomeComponent_div_43_Template(rf, ctx) { if (rf & 1) {
+    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 30);
@@ -1343,7 +1344,8 @@ function HomeComponent_div_43_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 33);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_div_43_Template_a_click_9_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14); const product_r11 = ctx.$implicit; const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r13.show(product_r11.product_id); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "\u95B1\u8B80\u66F4\u591A>>");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1378,7 +1380,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_app_services__WEBPACK_IMPORTED_MODULE_3__["AccountService"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 44, vars: 5, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], [1, "active"], [1, "fa", "fa-home"], [1, "col-xs-12", "col-sm-3"], [1, "col-xs-12", "col-sm-9"], [1, "text-center", "big-title"], ["id", "accordion2", "role", "tablist", "aria-multiselectable", "true", 1, "panel-group"], [1, "panel", "panel-default"], ["id", "headingOne", 1, "panel-heading"], [1, "panel-title"], ["routerLink", "/about", "type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseOne", "aria-expanded", "false", "aria-controls", "collapseOne", 1, "btn", "btn-link", "collapsed"], ["id", "headingTwo", 1, "panel-heading"], ["type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseTwo", "aria-expanded", "false", "aria-controls", "collapseTwo", 1, "btn", "btn-link", "collapsed"], ["id", "collapseTwo", "data-parent", "#accordionExample", 1, "collapse"], [1, "panel-body"], [4, "ngFor", "ngForOf"], ["id", "headingThree", 1, "panel-heading"], ["type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseThree", "aria-expanded", "false", "aria-controls", "collapseThree", 1, "btn", "btn-link", "collapsed"], ["id", "collapseThree", "data-parent", "#accordionExample", 1, "collapse"], [4, "ngIf"], ["class", "col-xs-12 col-sm-4", 4, "ngFor", "ngForOf"], [3, "href", "click"], ["routerLink", "/account/login", "routerLinkActive", "active", 1, "nav-item", "nav-link"], ["routerLink", "/account/register", "routerLinkActive", "active", 1, "nav-item", "nav-link"], ["href", "/", 1, "nav-item", "nav-link", 3, "click"], [1, "col-xs-12", "col-sm-4"], [1, "thumbnail"], ["alt", "", 3, "src"], [1, "caption"], [1, "ellipsis"], [1, "text-right"], [3, "href"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 44, vars: 5, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], [1, "active"], [1, "fa", "fa-home"], [1, "col-xs-12", "col-sm-3"], [1, "col-xs-12", "col-sm-9"], [1, "text-center", "big-title"], ["id", "accordion2", "role", "tablist", "aria-multiselectable", "true", 1, "panel-group"], [1, "panel", "panel-default"], ["id", "headingOne", 1, "panel-heading"], [1, "panel-title"], ["routerLink", "/about", "type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseOne", "aria-expanded", "false", "aria-controls", "collapseOne", 1, "btn", "btn-link", "collapsed"], ["id", "headingTwo", 1, "panel-heading"], ["type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseTwo", "aria-expanded", "false", "aria-controls", "collapseTwo", 1, "btn", "btn-link", "collapsed"], ["id", "collapseTwo", "data-parent", "#accordionExample", 1, "collapse"], [1, "panel-body"], [4, "ngFor", "ngForOf"], ["id", "headingThree", 1, "panel-heading"], ["type", "button", "data-parent", "#accordion2", "data-toggle", "collapse", "data-target", "#collapseThree", "aria-expanded", "false", "aria-controls", "collapseThree", 1, "btn", "btn-link", "collapsed"], ["id", "collapseThree", "data-parent", "#accordionExample", 1, "collapse"], [4, "ngIf"], ["class", "col-xs-12 col-sm-4", 4, "ngFor", "ngForOf"], [3, "href", "click"], ["routerLink", "/account/login", "routerLinkActive", "active", 1, "nav-item", "nav-link"], ["routerLink", "/account/register", "routerLinkActive", "active", 1, "nav-item", "nav-link"], ["href", "/", 1, "nav-item", "nav-link", 3, "click"], [1, "col-xs-12", "col-sm-4"], [1, "thumbnail"], ["alt", "", 3, "src"], [1, "caption"], [1, "ellipsis"], [1, "text-right"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1534,7 +1536,7 @@ class ProductComponent {
     }
 }
 ProductComponent.ɵfac = function ProductComponent_Factory(t) { return new (t || ProductComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_product_service__WEBPACK_IMPORTED_MODULE_3__["ProductService"])); };
-ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductComponent, selectors: [["app-product"]], decls: 28, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], ["href", "/"], [1, "fa", "fa-home"], [1, "active"], [1, "col-xs-12", "col-sm-4"], ["href", "http://bingxueweb.cf/show?id=p01", 1, "thumbnail"], ["src", "assets/imgs/carrot.jpg", "alt", ""], [1, "caption"], [1, "ellipsis"], ["href", "http://bingxueweb.cf/show?id=p02", 1, "thumbnail"], ["src", "assets/imgs/watermelon.jpg", "alt", ""]], template: function ProductComponent_Template(rf, ctx) { if (rf & 1) {
+ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductComponent, selectors: [["app-product"]], decls: 28, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], ["href", "/"], [1, "fa", "fa-home"], [1, "active"], [1, "col-xs-12", "col-sm-4"], ["href", "/show?id=p01", 1, "thumbnail", 3, "click"], ["src", "assets/imgs/carrot.jpg", "alt", ""], [1, "caption"], [1, "ellipsis"], ["href", "/show?id=p02", 1, "thumbnail", 3, "click"], ["src", "assets/imgs/watermelon.jpg", "alt", ""]], template: function ProductComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1556,6 +1558,7 @@ ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProductComponent_Template_a_click_13_listener() { return ctx.show("p01"); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2", 11);
@@ -1569,6 +1572,7 @@ ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProductComponent_Template_a_click_21_listener() { return ctx.show("p02"); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h2", 11);
